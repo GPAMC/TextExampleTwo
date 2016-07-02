@@ -12,6 +12,9 @@ import Alamofire
 
 public class TestFrameworkTwoTwo {
     
+    public class func fetchLaLaLa() -> String{
+        return "LaLAlaLa"
+    }
     public class func fetchJson() {
         Alamofire.request(.GET, "http://blog.teamtreehouse.com/api/get_recent_summary/?count=20", parameters: ["foo": "bar"])
             .responseJSON { response in
