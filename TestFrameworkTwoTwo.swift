@@ -36,7 +36,7 @@ public class TestFrameworkTwoTwo {
                 print(response.result)   // result of response serialization
                 
                 if let JSON = response.result.value {
-                    print("\n\nCount: \(JSON)\n\n\n")
+                    print("\n\nCount: \(JSON.count)\n\n\n")
                 }
         }
 
